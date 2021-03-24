@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { AnimesComponent } from './components/animes/animes.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { InstafeatureComponent } from './components/instafeature/instafeature.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     HomeComponent,
     FooterComponent,
     AnimesComponent,
-    CarouselComponent
+    CarouselComponent,
+    InstafeatureComponent
   ],
   imports: [
     BrowserModule
