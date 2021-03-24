@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.prdct-img{
+    width: 100%;
+}
+.shop-btn{
+    width: 80%;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.description{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.price{
+    
+    margin-top: 20px;
+}
