@@ -75,3 +75,20 @@ img{
     cursor: pointer;
     outline: none;
 }
+.social{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    justify-content: space-evenly;
+}
+.s-icon{
+    width: 25px;
+    background-color: white;
+    cursor: pointer;
+}
