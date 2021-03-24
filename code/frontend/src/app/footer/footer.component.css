@@ -1,0 +1,94 @@
+.container{
+    
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 25px;
+    
+}
+h1{
+    color: white;
+    font-size: 29px;
+    
+}
+p{
+    color: #D72323  ;
+}
+a{
+    color: #D72323  ;
+    text-decoration: none;
+}
+img{
+    width: 25px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+.about p{
+    width: 70%;
+}
+.h-links{
+    display: flex;
+    flex-direction: column;
+
+}
+.links{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.c-services{
+    display: flex;
+    flex-direction: column;
+        
+}
+.services{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+
+}
+.e-input{
+    width:95%;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+}
+.sub-btn{
+    width: 35%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #D72323;
+    color: white;
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    outline: none;
+}
+.social{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    justify-content: space-evenly;
+}
+.s-icon{
+    width: 25px;
+    
+    cursor: pointer;
+}

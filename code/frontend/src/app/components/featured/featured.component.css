@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.featured{
+    letter-spacing: 3px;
+}
+.pick{
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.view-btn{
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 3px;
+
+
+}
