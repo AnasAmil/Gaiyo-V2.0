@@ -20,12 +20,14 @@
     letter-spacing: 3px;
 }
 .view-btn{
-    margin-top: 30px;
+    margin-top: 80px;
     background-color: black;
     color: white;
     border: none;
     padding: 20px;
     cursor: pointer;
     outline: none;
+    letter-spacing: 3px;
+
 
 }
