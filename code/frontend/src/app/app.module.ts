@@ -10,6 +10,9 @@ import { FooterComponent } from './footer/footer.component';
 import { AnimesComponent } from './components/animes/animes.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { InstafeatureComponent } from './components/instafeature/instafeature.component';
+import { LogSignComponent } from './pages/log-sign/log-sign.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { InstafeatureComponent } from './components/instafeature/instafeature.co
     FooterComponent,
     AnimesComponent,
     CarouselComponent,
-    InstafeatureComponent
+    InstafeatureComponent,
+    LogSignComponent,
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
