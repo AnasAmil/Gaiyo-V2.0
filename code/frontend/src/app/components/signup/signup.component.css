@@ -1,0 +1,125 @@
+.container{
+    font-family: 'Segoe UI';
+
+    width: 550px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.title{
+    font-size: 30px;
+    
+}
+.desc{
+    font-size: 15px;
+    color: gray;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+   
+}
+.inputs div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.inputs input{
+    width: 230px;
+    height: 40px;
+    border: 1px solid gray;
+    outline: none;
+}
+.gender{
+    display: flex;
+    margin: 5px;
+
+    width: 50%;
+}
+.terms{
+    width: 45%;
+}
+.genterms{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.create{
+    width: 260px;
+    height: 60px;
+    margin-left: 5px;
+    margin-top: 60px;
+    
+}
+.create input{
+    width: 100%;
+    height: 100%;
+    border:none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+}
+.tpolicy{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.tpolicy a{
+    color:  #77161D;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 430px;
+        margin-top: 50px;
+        margin-left: 25px;
+    }
+    .create{
+    width: 430px;
+    }
+    .inputs{
+        justify-content: center;
+    }
+    .inputs input{
+        width: 430px;
+        height: 55px;
+    }
+    .terms{
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 250px;
+        margin-left: 0px;
+        
+    }
+    
+    .inputs input{
+        width: 250px;
+        
+    }
+    .create{
+        width: 90%;
+    }
+    .head{
+        margin-left: 0;
+        padding-bottom: 30px;
+    }
+    
+}
