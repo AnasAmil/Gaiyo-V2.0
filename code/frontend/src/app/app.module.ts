@@ -14,6 +14,8 @@ import { LogSignComponent } from './pages/log-sign/log-sign.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
 import { SeriesComponent } from './components/series/series.component';
+import { ClothingComponent } from './components/clothing/clothing.component';
+import { ProductImgComponent } from './components/product-img/product-img.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { SeriesComponent } from './components/series/series.component';
     LogSignComponent,
     SignupComponent,
     LoginComponent,
-    SeriesComponent
+    SeriesComponent,
+    ClothingComponent,
+    ProductImgComponent
   ],
   imports: [
     BrowserModule
