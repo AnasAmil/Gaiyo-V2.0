@@ -16,6 +16,7 @@ import { LoginComponent } from './components/login/login.component';
 import { SeriesComponent } from './components/series/series.component';
 import { ClothingComponent } from './components/clothing/clothing.component';
 import { ProductImgComponent } from './components/product-img/product-img.component';
+import { AccessoriesComponent } from './components/accessories/accessories.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ProductImgComponent } from './components/product-img/product-img.compon
     LoginComponent,
     SeriesComponent,
     ClothingComponent,
-    ProductImgComponent
+    ProductImgComponent,
+    AccessoriesComponent
   ],
   imports: [
     BrowserModule
