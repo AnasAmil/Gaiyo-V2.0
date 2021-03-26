@@ -13,6 +13,7 @@ import { InstafeatureComponent } from './components/instafeature/instafeature.co
 import { LogSignComponent } from './pages/log-sign/log-sign.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { LoginComponent } from './components/login/login.component';
+import { SeriesComponent } from './components/series/series.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { LoginComponent } from './components/login/login.component';
     InstafeatureComponent,
     LogSignComponent,
     SignupComponent,
-    LoginComponent
+    LoginComponent,
+    SeriesComponent
   ],
   imports: [
     BrowserModule
