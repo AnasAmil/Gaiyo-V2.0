@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+.color-names{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.color-demonstration{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    height: 260px;
+    justify-content: space-between;
+}
+#demonstration{
+    width: 20px;
+}

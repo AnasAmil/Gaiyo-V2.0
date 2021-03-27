@@ -1,0 +1,7 @@
+.container{
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

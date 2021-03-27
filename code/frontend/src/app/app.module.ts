@@ -17,6 +17,12 @@ import { SeriesComponent } from './components/series/series.component';
 import { ClothingComponent } from './components/clothing/clothing.component';
 import { ProductImgComponent } from './components/product-img/product-img.component';
 import { AccessoriesComponent } from './components/accessories/accessories.component';
+import { SizeComponent } from './components/size/size.component';
+import { ColorsComponent } from './components/colors/colors.component';
+import { SizeChartComponent } from './components/size-chart/size-chart.component';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { AccountComponent } from './components/account/account.component';
+import { AddToCartComponent } from './components/add-to-cart/add-to-cart.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +41,13 @@ import { AccessoriesComponent } from './components/accessories/accessories.compo
     SeriesComponent,
     ClothingComponent,
     ProductImgComponent,
-    AccessoriesComponent
+    AccessoriesComponent,
+    SizeComponent,
+    ColorsComponent,
+    SizeChartComponent,
+    ShoppingCartComponent,
+    AccountComponent,
+    AddToCartComponent
   ],
   imports: [
     BrowserModule
