@@ -23,6 +23,7 @@ import { SizeChartComponent } from './components/size-chart/size-chart.component
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { AccountComponent } from './components/account/account.component';
 import { AddToCartComponent } from './components/add-to-cart/add-to-cart.component';
+import { AddNewAdressComponent } from './components/add-new-adress/add-new-adress.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { AddToCartComponent } from './components/add-to-cart/add-to-cart.compone
     SizeChartComponent,
     ShoppingCartComponent,
     AccountComponent,
-    AddToCartComponent
+    AddToCartComponent,
+    AddNewAdressComponent
   ],
   imports: [
     BrowserModule
