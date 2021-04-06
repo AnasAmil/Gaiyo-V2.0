@@ -1,8 +1,8 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    
 }
 .head-top{
     display: flex;
@@ -11,6 +11,7 @@
     align-items: center;
     position: relative;
     width: 100%;
+    margin-top: 20px;
 }
 .logo h1{
     color: red;
@@ -20,6 +21,7 @@
 .icons{
     position:absolute;
     right: 50px;
+    top: 0;
     width: 120px;
     display: flex;
     justify-content: space-between;
@@ -34,12 +36,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 .routes{
-    width: 60%;
+    width:  900px;
     display: flex;
     justify-content: space-between  ;
     align-items: center;
+    
 }
 .routes a{
     color: black;
@@ -52,4 +56,10 @@
     border-radius: 3px;
     width: 40px;
     text-align: center;
+}
+
+@media only screen and (max-width: 905px) {
+    .head-bot{
+        display: none;
+    }
 }
