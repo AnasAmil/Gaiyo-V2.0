@@ -18,11 +18,13 @@
 }
 #bar{
     width: 100%;
-    border: 1px solid grey;
-    margin-top: 120px;
+    height: 1px;
+    background-color: #707070;
+    margin-top: 100px;
 }
 #merch-price{
     color: red;
+    font-weight: bold;
 }
 .total-price{
     display: flex;
@@ -35,6 +37,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
     margin-top: 30px;
 }
 .shopping{
@@ -44,24 +48,31 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.button{
+.shop button{
     background-color: black;
     height: 60px;
-    width: 300px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     border: groove;
-}
-.button p {
     color: white;
     font-size: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
 }
-#view-cart{
+.view-cart button{
     background-color: white;
-}
-#view-cart p {
-    color: black;
+    height: 60px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: groove;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
 }
 #title{
     font-size: 30px;

@@ -45,7 +45,7 @@
     margin-top: 20px;
     width: 200px;
 }
-.button{
+.add-adress button{
     background-color: black;
     height: 60px;
     width:622px;
@@ -54,9 +54,8 @@
     margin-left: 28px;
     justify-content: center;
     align-items: center;
-    border: groove;
-}
-.button p {
     color: white;
-    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
 }
