@@ -1,20 +1,21 @@
 .container{
     font-family: 'Segoe UI';
-
     width: 550px;
 }
 .head{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 8px;
 }
 .title{
-    font-size: 30px;
+    font-size: 40px;
+    letter-spacing: 10px;
     
 }
 .desc{
     font-size: 15px;
     color: gray;
+    margin-top: 20px;
 }
 
 .inputs{
@@ -22,11 +23,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-    
-   
+    margin-top: 20px;
 }
-.inputs div{
+.login-mail {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -36,26 +35,35 @@
     height: 40px;
     border: 1px solid gray;
     outline: none;
+    margin-top: 10px;
 }
 .gender{
     display: flex;
+    justify-content: space-between;
     margin: 5px;
-
-    width: 50%;
+    width: 240px;
 }
 .terms{
     width: 45%;
+    
 }
+.terms label{
+    margin-left: 8px;
+  
+}
+
 .genterms{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 .create{
-    width: 260px;
+    width: 280px;
     height: 60px;
     margin-left: 5px;
-    margin-top: 60px;
+    margin-top: 40px;
     
 }
 .create input{
@@ -69,13 +77,21 @@
     outline: none;
 }
 .tpolicy{
-    margin-left: 70px;
+    width: 120%;
     margin-top: 20px;
 }
 .tpolicy a{
     color:  #77161D;
     text-decoration: none;
     font-weight: bold;
+}
+#birthday{
+    width: 79px;
+    height: 45px;
+    border: 1px solid gray;
+    outline: none;
+    margin-top: 10px;
+    color: black;
 }
 @media screen and (max-width: 1200px){
     .container{
