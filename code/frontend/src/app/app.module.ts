@@ -29,6 +29,8 @@ import { CovidDescriptionComponent } from './pages/covid-description/covid-descr
 import { ShowPrdctComponent } from './components/show-prdct/show-prdct.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { PrdctDetailsComponent } from './pages/prdct-details/prdct-details.component';
+import { CartComponent } from './components/cart/cart.component';
+import { CheckProductCartComponent } from './pages/check-product-cart/check-product-cart.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +61,9 @@ import { PrdctDetailsComponent } from './pages/prdct-details/prdct-details.compo
     CovidDescriptionComponent,
     ShowPrdctComponent,
     ProductDetailsComponent,
-    PrdctDetailsComponent
+    PrdctDetailsComponent,
+    CartComponent,
+    CheckProductCartComponent
   ],
   imports: [
     BrowserModule
