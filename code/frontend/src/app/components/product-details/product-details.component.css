@@ -1,0 +1,147 @@
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+.details{
+    flex-wrap: wrap;
+}
+.merch-cercles{
+    padding-left: 20px;
+    width: 500px;
+}
+.product-code{
+    font-size: 15px;
+    display: flex;
+    margin-top: 7px;
+}
+.title{
+    height: 120px;
+    margin-top: 7px;
+}
+.price{
+    font-size: 25px;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.size-color{
+    margin-top: 10px;
+    width: 530px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    align-items: center;
+    width:80px;
+    height: 50px;
+    font-size: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button{
+    display: flex;
+}
+.add-to-cart button{
+        background-color: black;
+        height: 60px;
+        width: 535px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: groove;
+        color: white;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+}
+.like button{
+    background-color: black;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border: groove;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-left: 20px;
+}
+.fabric{
+    margin-top: 40px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+.fabric p {
+    font-size: 25px;
+    font-weight: bold;
+}
+#cercles{
+    height: 125px;
+    padding-bottom: 50px;
+}
+#merch {
+    height: 380px;
+    margin-left: 20px;
+}
+#prdct-name{
+    font-size: 30px;
+    width: 600px;
+    letter-spacing: 4px;
+    line-height: 40px;
+}
+#scan{
+    text-decoration:underline;
+    margin-left: 5px;
+}
+#code{
+    color: grey;
+}
+#stock{
+    margin-left: 5px;
+}
+#bar{
+    width: 530px;
+    height: 1px;
+    background-color: #707070;
+    margin-top: 20px;
+}
+#solde{
+    color: grey;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+#size{
+    width: 530px;
+    height: 65px;
+    font-size: 22px;
+    padding-left: 25px;
+    font-family: 'light';
+}
+#color{
+    width: 530px;
+    height: 65px;
+    font-size: 22px;
+    padding-left: 25px;
+    font-family: 'light';
+}
+#fabric-details{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 22px;
+}

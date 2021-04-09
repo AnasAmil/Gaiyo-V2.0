@@ -27,6 +27,8 @@ import { AddNewAdressComponent } from './components/add-new-adress/add-new-adres
 import { CovidComponent } from './components/covid/covid.component';
 import { CovidDescriptionComponent } from './pages/covid-description/covid-description.component';
 import { ShowPrdctComponent } from './components/show-prdct/show-prdct.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
+import { PrdctDetailsComponent } from './pages/prdct-details/prdct-details.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { ShowPrdctComponent } from './components/show-prdct/show-prdct.component
     AddNewAdressComponent,
     CovidComponent,
     CovidDescriptionComponent,
-    ShowPrdctComponent
+    ShowPrdctComponent,
+    ProductDetailsComponent,
+    PrdctDetailsComponent
   ],
   imports: [
     BrowserModule
