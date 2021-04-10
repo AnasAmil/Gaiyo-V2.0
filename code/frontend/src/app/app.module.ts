@@ -31,6 +31,11 @@ import { ProductDetailsComponent } from './components/product-details/product-de
 import { PrdctDetailsComponent } from './pages/prdct-details/prdct-details.component';
 import { CartComponent } from './components/cart/cart.component';
 import { CheckProductCartComponent } from './pages/check-product-cart/check-product-cart.component';
+import { WhishComponent } from './components/whish/whish.component';
+import { WhishlistComponent } from './pages/whishlist/whishlist.component';
+import { MyadressComponent } from './components/myadress/myadress.component';
+import { AdressComponent } from './pages/adress/adress.component';
+import { AccountDetailComponent } from './components/account-detail/account-detail.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +68,12 @@ import { CheckProductCartComponent } from './pages/check-product-cart/check-prod
     ProductDetailsComponent,
     PrdctDetailsComponent,
     CartComponent,
-    CheckProductCartComponent
+    CheckProductCartComponent,
+    WhishComponent,
+    WhishlistComponent,
+    MyadressComponent,
+    AdressComponent,
+    AccountDetailComponent
   ],
   imports: [
     BrowserModule
